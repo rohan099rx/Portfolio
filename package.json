@@ -1,0 +1,11 @@
+{
+  "name": "rohanml-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node -e \"console.log('Static build ready')\"",
+    "check": "node --check app.js && node --check server.mjs"
+  }
+}
